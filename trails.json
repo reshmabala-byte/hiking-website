@@ -1,0 +1,1103 @@
+{
+  "meta": {
+    "source_file": "WhatsApp Chat with Kananaskis Hike.txt",
+    "generated": "2026-06-08T16:02:27",
+    "total_messages_parsed": 3777,
+    "date_range": {
+      "first": "12/11/23",
+      "last": "6/8/26"
+    },
+    "group_name": "ABC Annapoorna Base Camp October 24 (now: Kananaskis Hike)"
+  },
+  "participants": {
+    "Bala Ravindran": 1238,
+    "Kannan Ramachandran": 462,
+    "Srikumar Nambiar": 403,
+    "Sam Raja": 294,
+    "Anish Naina": 280,
+    "Giridhar Ragnar": 251,
+    "Ravi Reshmi": 239,
+    "Binoj Kitchu": 180,
+    "Kidambi Anu Sanjana": 150,
+    "Chand Vidhu Warrier": 97,
+    "Manju Mahesh": 72,
+    "+977 984-4511280": 32,
+    "Bal Krisha Tamang": 29,
+    "Gopa Ganesan": 20,
+    "Binoy Warrier": 19,
+    "+1 (952) 353-6639": 6,
+    "David Srikumar Friend PT": 5
+  },
+  "past_hikes": [
+    {
+      "name": "Machu Picchu Trek",
+      "location": "Machu Picchu, Peru",
+      "status": "completed",
+      "dates": {
+        "approx": "Before December 2023"
+      },
+      "elevation_ft": 14000,
+      "notes": "Group completed the Inca Trail to Machu Picchu. Max elevation ~14,000 ft. Altitude medicine (Diamox) was taken. Used as benchmark for ABC preparation. T-shirts with trail distances were souvenirs from Alpaca.",
+      "participants": [
+        "Bala Ravindran",
+        "Binoj Kitchu",
+        "Others"
+      ],
+      "training_value": "High – confirmed ability to reach 14k ft with medication"
+    },
+    {
+      "name": "Havasupai Falls Backpacking Trip",
+      "location": "Havasupai, Grand Canyon, Arizona, USA",
+      "status": "completed",
+      "dates": {
+        "approx": "Late March / Early April 2024"
+      },
+      "duration_days": 4,
+      "daily_miles": 11,
+      "notes": "4-day trip averaging 11 miles per day. Extremely beautiful. Mule service used to carry heavy gear. Very scenic waterfalls.",
+      "participants": [
+        "Bala Ravindran",
+        "Others"
+      ]
+    },
+    {
+      "name": "Flagstaff Training Hikes (Humphreys, Elden, Kendrick)",
+      "location": "Flagstaff, Arizona, USA",
+      "status": "completed",
+      "dates": {
+        "start": "2024-07-26",
+        "end": "2024-07-28"
+      },
+      "duration_days": 3,
+      "peaks": [
+        {
+          "name": "Mount Elden",
+          "miles_rt": 5.15,
+          "elevation_gain_ft": 2400,
+          "notes": "Start from main parking lot, summit and back. Lung buster."
+        },
+        {
+          "name": "Humphreys Peak",
+          "elevation_ft": 12800,
+          "notes": "Highest peak in AZ. Slow above 11k ft. Saddle section is very challenging."
+        },
+        {
+          "name": "Kendrick Peak",
+          "notes": "Hard trail, ~10 miles, ~2500 ft gain."
+        }
+      ],
+      "daily_miles_avg": 10,
+      "daily_elevation_gain_ft": 2500,
+      "accommodation": "Airbnb, $928 for 2 nights",
+      "notes": "Training trip specifically to prepare for ABC Nepal. All trails rated Hard. Max elevation 12,800 ft at Humphreys – comparable to ABC's 13,750 ft. Diamox available for anyone feeling altitude effects. Participants: Bala, Kannan, Srikumar, Sam Raja, Binoj (flew in from out of town), Giridhar (post-surgery, limited).",
+      "participants": [
+        "Bala Ravindran",
+        "Kannan Ramachandran",
+        "Srikumar Nambiar",
+        "Sam Raja",
+        "Binoj Kitchu",
+        "Giridhar Ragnar"
+      ]
+    },
+    {
+      "name": "Boundary Waters Backpacking Canoe Trip",
+      "location": "Boundary Waters Canoe Area, Minnesota, USA",
+      "status": "completed",
+      "dates": {
+        "approx": "August 22–25, 2024"
+      },
+      "duration_days": 4,
+      "notes": "Backpacking + canoe trip. No phone access throughout. Bala and Sam Raja attended.",
+      "participants": [
+        "Bala Ravindran",
+        "Sam Raja"
+      ]
+    },
+    {
+      "name": "Annapurna Base Camp (ABC) & Poon Hill Trek",
+      "location": "Annapurna Region, Nepal",
+      "status": "completed",
+      "dates": {
+        "start": "2024-10-08",
+        "end": "2024-10-15"
+      },
+      "duration_days": 8,
+      "max_elevation_ft": 13566,
+      "max_elevation_m": 4130,
+      "tour_company": "Mountain Nepal (www.mtnepal.com)",
+      "guide": "Bal Krishna Tamang (balpub80@hotmail.com)",
+      "itinerary": [
+        "Day 1: Pokhara → Jhinu Danda by jeep → 2.5h hike to Chhomrong (2170m)",
+        "Day 2: Trek to Dovan (2505m), 5–6 hrs",
+        "Day 3: Trek to Machhapuchhre Base Camp MBC (3700m), 5–6 hrs",
+        "Day 4: 2h early morning walk to ABC (4130m) for sunrise. Trek back to Bamboo, 5–6 hrs",
+        "Day 5: Trek to Chhomrong, 5 hrs",
+        "Day 6: Trek to Tadapani (2630m), 5 hrs",
+        "Day 7: Trek to Ghorepani (2830m), 5 hrs",
+        "Day 8: Hike to Poon Hill viewpoint (3120m) for sunrise. Trek to Tikhedhunga, drive to Pokhara"
+      ],
+      "cost_per_person_usd": {
+        "airfare": "~1400",
+        "tour_company": 450,
+        "internal_flights_and_hotel": 200,
+        "misc": "200–500",
+        "total_estimate": "2200–2500"
+      },
+      "included_in_tour": [
+        "Government authorized trek guide",
+        "Porters (Sherpas – 3 for 6 people, max 25kg each)",
+        "Trekking permit & TIMS card",
+        "All meals (B/L/D) at tea houses",
+        "Hot drinks (tea, coffee, hot chocolate)",
+        "Land transportation to/from trek start and end",
+        "Welcome and goodbye dinner – Nepalese family",
+        "Lodging in tea houses"
+      ],
+      "not_included": [
+        "Alcoholic and soft drinks",
+        "Personal expenses",
+        "Emergency rescue",
+        "International flights",
+        "Hotels in Kathmandu and Pokhara",
+        "Internal flight KTM ↔ Pokhara"
+      ],
+      "logistics": {
+        "arrive_ktm": "October 6–7, 2024",
+        "ktm_to_pokhara_flight": "October 6 or 7 (Buddha Air ~Rs 15,800 / $188)",
+        "return_pokhara_to_ktm": "October 16, 7:00 AM Buddha Air",
+        "pokhara_hotel": "Big Pillow Inn",
+        "kathmandu_hotel": "Hyatt Regency / Hotel Sankar"
+      },
+      "participants": [
+        "Bala Ravindran",
+        "Kannan Ramachandran",
+        "Srikumar Nambiar",
+        "Giridhar Ragnar",
+        "Sam Raja",
+        "Binoj Kitchu"
+      ],
+      "notes": "8-day route via Ghandruk approach, returning via Poon Hill/Ghorepani. Tea house accommodation throughout. Sherpas carried main bags (max 12.5kg per person). Hikers carried small day packs. Sleeping bags rentable in Pokhara (250 Rs/day). Trekking poles rentable (100 Rs/day). Walking slowly above snow line critical. Temperature: daytime 24–30°C at lower altitudes; MBC/ABC can drop to -10°C at night."
+    },
+    {
+      "name": "Cactus to Clouds (San Jacinto via Palm Springs Aerial Tramway)",
+      "location": "Palm Springs / Mount San Jacinto, California, USA",
+      "status": "completed",
+      "dates": {
+        "approx": "Before April 2026"
+      },
+      "elevation_ft": 10834,
+      "notes": "Gopa Ganesan organized and created a detailed Excel packing/time plan per mile. Referenced as 'Gopa's excel spreadsheet was a masterpiece of hike planning'. Plan shared with Adi (another member) for their attempt in May 2026.",
+      "participants": [
+        "Gopa Ganesan",
+        "Group members"
+      ],
+      "resources": [
+        "Gopa's mile-by-mile Excel timing spreadsheet shared in group"
+      ]
+    },
+    {
+      "name": "Mount Wrightson",
+      "location": "Santa Rita Mountains, south of Tucson, Arizona, USA",
+      "status": "completed",
+      "dates": {
+        "approx": "Late 2024 / early 2025 – training hike"
+      },
+      "miles_rt": 10.6,
+      "elevation_gain_ft": 4000,
+      "peak_elevation_ft": 9500,
+      "drive_hours": 3,
+      "notes": "Day hike starting at ~5,000 ft, summiting at 9,500 ft. 3,500 ft elevation gain. Described as 'kick ass' cardio workout. Good leg and lung builder at lower base elevation than Flagstaff.",
+      "participants": [
+        "Giridhar Ragnar",
+        "Various group members"
+      ]
+    }
+  ],
+  "upcoming_hikes": [
+    {
+      "name": "Kananaskis / Banff Hiking Trip",
+      "location": "Kananaskis Country & Banff, Alberta, Canada",
+      "status": "upcoming – confirmed & deposit paid",
+      "dates": {
+        "approx": "Summer/Fall 2026 (exact dates TBD)"
+      },
+      "cost_per_person_usd": 480,
+      "notes": "Deposits of $480 per person paid. Multiple group members confirmed. Bala organizing. Srikumar and Binoy Warrier dropped out; Gopa Ganesan and potentially Adi took their spots.",
+      "participants_confirmed": [
+        "Bala Ravindran",
+        "Kannan Ramachandran",
+        "Sam Raja",
+        "Binoj Kitchu",
+        "Giridhar Ragnar",
+        "Ravi Reshmi",
+        "Chand Vidhu Warrier",
+        "Gopa Ganesan",
+        "Manju Mahesh",
+        "Anish Naina"
+      ]
+    },
+    {
+      "name": "Patagonia W Trek (Torres del Paine)",
+      "location": "Torres del Paine National Park, Patagonia, Chile",
+      "status": "upcoming – reservation confirmed",
+      "dates": {
+        "start": "2026-12-10",
+        "end": "2026-12-14",
+        "travel": "Dec 8–15"
+      },
+      "duration_days": 5,
+      "nights": 4,
+      "cost_per_person_usd": 3340,
+      "included_in_package": [
+        "Private round-trip transport",
+        "Catamaran across Lake Pehoe (round-trip)",
+        "National Park entrance",
+        "Mountain refuge 4 nights",
+        "Breakfast, lunch, dinner"
+      ],
+      "mountain_shelters": [
+        "Central",
+        "Paine Grande",
+        "Grey",
+        "Paine Grande"
+      ],
+      "highlights": [
+        "Towers Viewpoint",
+        "French Valley",
+        "Grey Glacier",
+        "Ferrier's Lookout"
+      ],
+      "group_size": 10,
+      "notes": "Total trip cost ~$5,000–$6,000+ per person including airfare and misc. Operator confirmed reservation for 10 people. Price is ~$1,500 higher than previous year quotes. Binoj Kitchu interested in organizing Spiti Valley India trip for next summer.",
+      "participants": [
+        "Bala Ravindran",
+        "Kannan Ramachandran",
+        "Srikumar Nambiar",
+        "Sam Raja",
+        "Giridhar Ragnar",
+        "Ravi Reshmi",
+        "Chand Vidhu Warrier",
+        "Gopa Ganesan",
+        "Manju Mahesh",
+        "Anish Naina",
+        "Sajeev"
+      ]
+    },
+    {
+      "name": "The Enchantments Traverse",
+      "location": "Leavenworth, Washington, USA",
+      "status": "proposed – interest expressed",
+      "dates": {
+        "approx": "TBD"
+      },
+      "source": "https://www.alltrails.com/trail/us/washington/the-enchantments-trail",
+      "notes": "Shared by Gopa Ganesan in June 2026. No dates or deposits yet."
+    },
+    {
+      "name": "European Hut-to-Hut / Inn-to-Inn Routes",
+      "location": "France, England, Scotland, Iceland, Spain, TMB Switzerland",
+      "status": "proposed – bucket list",
+      "dates": {
+        "approx": "TBD – future"
+      },
+      "notes": "Mentioned by Bala as strong future options. TMB (Tour du Mont Blanc) from Switzerland specifically highlighted."
+    },
+    {
+      "name": "Spiti Valley",
+      "location": "Spiti Valley, Himachal Pradesh, India",
+      "status": "proposed – casual interest",
+      "dates": {
+        "approx": "Next summer (2027?) – very early stage"
+      },
+      "notes": "Binoj Kitchu suggested organizing this for next summer after Patagonia."
+    }
+  ],
+  "gear": {
+    "official_guide_list": [
+      "Backpack (big – carried by Sherpas/porter)",
+      "Small day pack (carry yourself during trek)",
+      "Waterproof hiking boots with ankle support",
+      "Sandals (for end of day relief)",
+      "2–3 pairs of thick socks",
+      "Light T-shirts (2–3 for daytime)",
+      "Thermal / long warm underwear",
+      "Warm sleeping bag (rated -5°C / 23°F minimum; 0°F preferred)",
+      "Fleece jacket",
+      "Windproof jacket and windproof pants",
+      "Warm trousers / trekking pants",
+      "Down jacket",
+      "Water bottle (1–2 L)",
+      "Trekking poles (rentable in Pokhara at 100 Rs/day)",
+      "Winter hat (wool/fleece)",
+      "Gloves",
+      "Sunglasses (UV protection)",
+      "Headlamp (with extra batteries)",
+      "Gaiters",
+      "Sunscreen (SPF 30+)",
+      "Lip balm",
+      "Small towel",
+      "Toiletries (toothbrush etc.)",
+      "Book / notebook / diary",
+      "Medicines: pain relief, cold/fever, altitude sickness (Diamox recommended)",
+      "Trekking pole (rentable)",
+      "Rain gear / rain jacket (provided by guide)"
+    ],
+    "rental_in_nepal": {
+      "sleeping_bag": "250 Rs/day (~$1.85 at 2024 rates)",
+      "trekking_poles": "100 Rs/day (~$0.75)",
+      "other_gear": "Most trekking and climbing gear available in Pokhara or Kathmandu",
+      "note": "Guide recommends renting locally – much cheaper than buying abroad"
+    },
+    "packing_tips": [
+      "Sherpas carry main bag – limit to 12.5 kg per person (3 Sherpas for 6 hikers, max 25kg/Sherpa)",
+      "Excess luggage can be left at Pokhara hotel",
+      "Small hydration day pack carried by yourself",
+      "45L pack sufficient for most hikers (Sam Raja confirmed)",
+      "Check Buddha Air carry-on policy (may need to check in larger bags)",
+      "Pack water-repellant, quick-dry, lightweight clothing",
+      "No back pocket on shorts recommended (avoids spine misalignment)",
+      "Hot-wash all gear before returning home (leeches/bed bugs possible in trail accommodations)",
+      "Can do laundry at tea houses (hand wash or outsource; allow 1+ day to dry)",
+      "Carry ~$200 USD worth of Nepalese Rupees cash for personal expenses"
+    ]
+  },
+  "products_to_buy": [
+    {
+      "category": "Nutrition / Hydration",
+      "item": "Tailwind Nutrition Endurance Fuel – Mandarin, 50 Servings",
+      "brand": "Tailwind Nutrition",
+      "description": "Electrolyte & hydration sports drink mix powder. Gluten-free, vegan.",
+      "link": "https://a.co/d/7e6Jn05",
+      "recommended_by": "Giridhar Ragnar",
+      "date_shared": "2024-07-16",
+      "notes": "Giridhar used 1 salt/electrolyte tab per hour during training."
+    },
+    {
+      "category": "Footwear",
+      "item": "HOKA Hiking Boots (sale – $60 off)",
+      "brand": "HOKA",
+      "description": "High-performance waterproof hiking boots, discounted during sale.",
+      "link": "https://www.gearpatrol.com/outdoors/hoka-hiking-boot-sale/",
+      "recommended_by": "Giridhar Ragnar",
+      "date_shared": "2024-08-16",
+      "notes": "Sam Raja purchased these. Great deal at the time."
+    },
+    {
+      "category": "Footwear",
+      "item": "Merrell Waterproof Hiking Boots",
+      "brand": "Merrell",
+      "description": "Waterproof hiking boots used by both Giridhar and Bala.",
+      "link": null,
+      "recommended_by": "Giridhar Ragnar, Bala Ravindran",
+      "notes": "Must be broken in before the hike to avoid toe injuries. Break in over multiple hikes."
+    },
+    {
+      "category": "Footwear",
+      "item": "The North Face Summit Series Offtrail TR Shoes",
+      "brand": "The North Face",
+      "link": "https://hiconsumption.com/style/the-north-face-summit-series-offtrail-tr-shoes/",
+      "recommended_by": "Giridhar Ragnar",
+      "date_shared": "2024-08-20",
+      "notes": "Shared as a high-performance trail shoe option."
+    },
+    {
+      "category": "Clothing – Pants",
+      "item": "Gap Performance Water-Repellant Hiking Pants",
+      "brand": "Gap",
+      "description": "Lightweight, water-repellant, breathable, quick-dry. Drawstring waist. No back pocket (good for spine). Separate zipper pocket.",
+      "price_usd": 14,
+      "where_to_buy": "Sam's Club",
+      "recommended_by": "Giridhar Ragnar",
+      "date_shared": "2024-08-22",
+      "notes": "Sold out quickly in sizes M/S at local Sam's Club. Check online or Mesa Sam's. Blue Eddie Bauer was also liked. Khaki Eddie Bauer is Giridhar's regular go-to."
+    },
+    {
+      "category": "Clothing – Pants",
+      "item": "Eddie Bauer Hiking Pants / Boots",
+      "brand": "Eddie Bauer",
+      "description": "Water-repellant hiking pants and boots seen at Sam's Club.",
+      "price_usd": {
+        "boots": 39.99,
+        "pants": "~$14"
+      },
+      "where_to_buy": "Sam's Club",
+      "recommended_by": "Giridhar Ragnar",
+      "date_shared": "2024-08-22"
+    },
+    {
+      "category": "Sleeping Bag",
+      "item": "Hyke & Byke Duck Down Mummy Backpacking Sleeping Bag – 0°F",
+      "brand": "Hyke & Byke",
+      "description": "0°F rated mummy sleeping bag. 13 inches long, 8 inches diameter when packed.",
+      "price_usd": 179,
+      "link": "https://www.amazon.com/Duck-Down-Mummy-Backpacking-Sleeping-Bag-0-Degrees/dp/B01MA31V92/",
+      "recommended_by": "Sam Raja",
+      "date_shared": "2024-08-26",
+      "notes": "Sam owns this and brought it for the Nepal trip. Compact enough to carry."
+    },
+    {
+      "category": "Sleeping Bag",
+      "item": "Goose Down Ultralight Mummy Backpacking Sleeping Bag – 800 FP, rated to -17°C / -30°F",
+      "brand": "Hyke & Byke (Goose Down)",
+      "description": "Ultralight 800-fill-power goose down mummy bag. Rated -15°F to -30°F.",
+      "link": "https://www.amazon.com/Goose-Down-Ultralight-Mummy-Backpacking-Sleeping-Bag-0-15-30-Degree/dp/B06XS6R59L/",
+      "recommended_by": "Sam Raja",
+      "date_shared": "2024-08-26",
+      "notes": "Higher-rated option for very cold nights at MBC/ABC. Overkill for most nights but safe."
+    },
+    {
+      "category": "Dry Bags / Gear Protection",
+      "item": "Outdoor Products Ultimate Dry Sack 3-Pack",
+      "brand": "Outdoor Products",
+      "link": "https://a.co/d/9LWNAdT",
+      "recommended_by": "Giridhar Ragnar",
+      "date_shared": "2024-08-27",
+      "notes": "To keep gear dry in rain and river crossings."
+    },
+    {
+      "category": "Medication",
+      "item": "Diamox (Acetazolamide) – Altitude Sickness Prevention",
+      "brand": "Prescription / OTC depending on country",
+      "description": "Prescription medication recommended by guide for altitude sickness prevention.",
+      "recommended_by": "Bal Krishna Tamang (guide), Bala Ravindran",
+      "notes": "Used successfully on Machu Picchu. ABC reaches 13,750 ft – similar to Humphreys. Not mandatory but strongly suggested, especially for first-time high-altitude hikers. Consult a doctor before use."
+    },
+    {
+      "category": "Gear – REI Sale",
+      "item": "REI Labor Day Sale (general gear)",
+      "brand": "REI",
+      "link": "https://www.rei.com/promotions/labor-day-sale",
+      "recommended_by": "Giridhar Ragnar",
+      "date_shared": "2024-08-26",
+      "notes": "Good time to buy backpacks, boots, and hiking clothing at a discount."
+    }
+  ],
+  "user_recommendations": [
+    {
+      "topic": "Altitude Acclimatization",
+      "tips": [
+        "Train on Humphreys Peak (12,800 ft) in Flagstaff multiple times before any high-altitude trek.",
+        "ABC (13,750 ft) is similar altitude to Pikes Peak – manageable without full acclimatization week if you pace yourself.",
+        "Walk very slowly above the snow line to prevent altitude sickness.",
+        "Take Diamox (consult doctor). Bala used it successfully on Machu Picchu.",
+        "Electrolyte tabs or Tailwind Nutrition powder help – 1 per hour during strenuous hikes.",
+        "Arrive in Kathmandu at least 1–2 days before hiking for initial acclimatization."
+      ]
+    },
+    {
+      "topic": "Training Plan",
+      "tips": [
+        "Do at least 1 long hike per weekend in the months leading up to a major trek.",
+        "Increase to 2–3 hikes per weekend as trip date approaches.",
+        "Target 10 miles / 2,500 ft elevation gain per day on training hikes.",
+        "Flagstaff (Humphreys + Elden + Kendrick) is the ideal 3-day training block – plan a trip there.",
+        "Mt. Wrightson (south of Tucson) is excellent: 10.6 mi RT, 4,000 ft gain, 9,500 ft peak.",
+        "Piestewa Peak in Phoenix is useful for short intense cardio – Elden is ~2X harder.",
+        "Mormon Trail in Phoenix usable for flat-speed training.",
+        "Deem Hills hiking group organizes Sunday morning group hikes – good community training."
+      ]
+    },
+    {
+      "topic": "Gear & Packing",
+      "tips": [
+        "Break in hiking boots over multiple hikes before the trip. Merrell boots especially need this.",
+        "Limit main bag to 12.5 kg when Sherpas are provided (3 Sherpas for 6 hikers).",
+        "A 45L pack is sufficient; 75L is overkill for 8-day tea house trek.",
+        "Rent sleeping bags and poles in Pokhara – much cheaper (250 Rs/day bag, 100 Rs/day poles).",
+        "Bring your own sleeping bag for hygiene reasons if you can (rental bags may not be washed between uses).",
+        "Water-repellant, lightweight, quick-dry pants essential above snow line.",
+        "Hydration pack / bladder for day pack is useful.",
+        "Pack a small diary/book – tea houses have no entertainment in evenings.",
+        "Carry a headlamp even on day hikes."
+      ]
+    },
+    {
+      "topic": "Nepal Logistics",
+      "tips": [
+        "Fly Phoenix → Kathmandu. Options: American/Qatar via Doha, United/Singapore via Singapore.",
+        "Internal flight KTM ↔ Pokhara: Buddha Air is recommended (~$188 USD or Rs 15,800 booked via Indian agent).",
+        "Book Kathmandu–Pokhara flights early – small planes fill up, everyone wants the first flight.",
+        "Get SIM card in Nepal – very limited phone signal on trails but power to charge phones everywhere.",
+        "Passport-size photo and passport copy required by the guide for trekking permits.",
+        "30% deposit (≈$150/person or Rs 12,000) required to book the trek.",
+        "Carry ~$200 USD equivalent in Nepali Rupees for personal expenses (drinks, tips, extras).",
+        "Excess luggage can be stored at your Pokhara hotel during the trek.",
+        "Recommended hotels: Big Pillow Inn (Pokhara), Hyatt Regency (Kathmandu), Hotel Sankar (Kathmandu).",
+        "Mountain Everest flight option: airplane ~$225–240 USD per person (1-hour flight close to Everest).",
+        "Helicopter tour to EBC: ~$1,200–$1,350 USD per person."
+      ]
+    },
+    {
+      "topic": "Tea House Life on the Trail",
+      "tips": [
+        "Tea houses provide blankets but bring or rent a sleeping bag for MBC/ABC nights (-10°C possible).",
+        "Dining rooms heated by kerosene stove in tea houses.",
+        "Menu at every tea house – Muesli with milk and Tibetan bread are popular breakfasts.",
+        "Laundry can be done at tea houses (hand wash yourself or pay to outsource); allow 1 day to dry.",
+        "Hot spring at Jhinu Danda on the route – plan a soak.",
+        "No alcohol included in trek cost; available to purchase separately.",
+        "Hot drinks (tea, coffee, hot chocolate) included in tour cost."
+      ]
+    },
+    {
+      "topic": "Health & Safety",
+      "tips": [
+        "Hot-wash all clothes after returning from Nepal (bed bugs and leeches possible).",
+        "Wear masks and avoid handshakes during high-transmission periods.",
+        "No back pockets on shorts recommended to keep the spine aligned while hiking.",
+        "Walking poles reduce knee stress significantly on descents.",
+        "Emergency rescue is not included in tour cost – consider travel insurance with evacuation cover."
+      ]
+    }
+  ],
+  "polls": [
+    {
+      "date": "2/14/24",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "4/3/24",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "7/3/24",
+      "by": "Giridhar Ragnar",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "8/27/24",
+      "by": "Srikumar Nambiar",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "8/28/24",
+      "by": "Giridhar Ragnar",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "11/13/24",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "11/14/24",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "11/14/24",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "11/18/24",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "11/21/24",
+      "by": "Kannan Ramachandran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "11/28/24",
+      "by": "Kannan Ramachandran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "1/31/25",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "5/3/25",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "5/14/25",
+      "by": "Kannan Ramachandran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "5/20/25",
+      "by": "Srikumar Nambiar",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "5/22/25",
+      "by": "Srikumar Nambiar",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "6/13/25",
+      "by": "Kannan Ramachandran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "6/25/25",
+      "by": "Kannan Ramachandran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "6/25/25",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "8/14/25",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "8/21/25",
+      "by": "Kannan Ramachandran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "9/12/25",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "10/21/25",
+      "by": "Srikumar Nambiar",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "11/5/25",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    },
+    {
+      "date": "5/26/26",
+      "by": "Bala Ravindran",
+      "question": "",
+      "options": []
+    }
+  ],
+  "itineraries_raw": [
+    {
+      "date": "12/21/23",
+      "shared_by": "Bala Ravindran",
+      "itinerary_text": "Here is a rough itinerary of the 7 day hike\nDay 1 _ Drive by car to Nayapul from Pokhara and trek to Chhomrong ( Hot spring )\nDay 2_ Chhomrong to Dovan\nDay 3_ Dovan to MBC ( Machhapuchhre Base camp )\nDay 4_ MBC to ABC ( about one explore in ABC ) trek Back to Himalaya\nDay 5_ Himalya  to Sinuwa\nDay 6_ Sinuwa  to Pothana\nDay 7_Pothana to Phedi and drive back to Pokhara.\nThere is a $100 advance for booking"
+    },
+    {
+      "date": "2/13/24",
+      "shared_by": "Bala Ravindran",
+      "itinerary_text": "Itinerary :\n\nDay1: Pokhara to Simrong ( 3 Hrs Drive ) . Cross Long suspension bridge . Stop at Jhinu Danda for launch. Hike up hill  by to Chhomrong. 1.3km. 2 hours\n\nDay 2: Trek to Dovan. 3630Mtr. 11.2 \nKtm.5Hrs\n\nDay3: Trek to MBC.3800Mtr.13.5Km.5Hrs\n\nDay4: Trek to ABC.Trek Down to Bamboo. 4130Mtr.2.9Km Up hill. Stop for view and photography. Trek down to Bamboo.13.5Km.6.5Hrs\n\nDay 5: Trek to Sinuwa .11.7Km.5 hours . Another option we can continue walk down to Jhinu Danda to enjoy Hot spring\n\nDay 6: Trek to Pothana.10Km. 1890Mtr .4.5Hrs\n\nDay 7: Pothana to Phedi and Drive Back to Pokhara"
+    },
+    {
+      "date": "3/10/24",
+      "shared_by": "Bala Ravindran",
+      "itinerary_text": "Day 6 :  Trek back to Chhomrong.19km . 6 hours .\n\nDay 7 : Trek to Tadapani . 16 km . Trek down to modi khola river and from their hike to Tadapani . Nice green forest walk.\n\nDay 8 : 11km walk to Ghorepani . Many ups and downs . Launch in Deurali. Many Mt views scenery along the way ."
+    },
+    {
+      "date": "8/14/24",
+      "shared_by": "Bala Ravindran",
+      "itinerary_text": "We will be following given itinerary :\n\nDay 1 . Pokhara to Jhinu Danda by jeep then 2 and half hours hike to Chhomrong 2170 Mtr\n\nDay 2 . Trek to Dovan 2505 Mtr . 5/6 hours \n\nDay 3 . Trek to MBC 3700 Mtr 5/6 hours \n\nDay 4 . Two Hours walk early in the morning to ABC 4130 Mtrs . After Breakfast and photography Trek back to  Bamboo . 5/6 hour\n\nDay 5 . Trek to Chhomrong.5 hours \n\nDay 6 Trek to Tadapani 2630Mtr. 5 hours \n\nDay 7. Trek to Ghorepani 5 hours .  2830 Mtr\n\nDay 8. Hike to Poon Hill for View 3120 Mtr . Trek down to Ghorepani after breakfast trek down to Tike Dhunga and drive back to Pokhara"
+    },
+    {
+      "date": "11/28/24",
+      "shared_by": "Kannan Ramachandran",
+      "itinerary_text": "No . Changes are :\n1) Start on 7/21 instead of 7/20\n2) More distance on Day 2 - by 2 Km and Day 3 - by 6 km \n3) Less distance on Day 4 - by 8 Km"
+    },
+    {
+      "date": "11/28/24",
+      "shared_by": "Kannan Ramachandran",
+      "itinerary_text": "POLL:\nAccept proposed itinerary changes- Changes are : \n1) Start on 7/21 instead of 7/20\n2) More distance on Day 2 - by 2 Km and Day 3 - by 5.2 km \n3) Less distance on Day 4 - by 8 Km\nOPTION: Yes (7 votes)\nOPTION: No (0 votes)"
+    },
+    {
+      "date": "2/4/25",
+      "shared_by": "Kidambi Anu Sanjana",
+      "itinerary_text": "Ravi - Rifugio is the hut where we sleep the night before\n\nDay 2 we sleep at Rifugio Peduro and Day 3 we start from there!\n\nDay 8 we sleep at Rifugio Pramperet and Day 9 we start from Rifugio Pramperet and that's the last hike!\n\nThat's how I read the itinerary!"
+    },
+    {
+      "date": "8/14/25",
+      "shared_by": "Bala Ravindran",
+      "itinerary_text": "Here is the high level itinerary\nDay 1 - Leave for Santiago from US\nDay 2 - Reach Santiago in the morning and take a flight to Puerto Natales by afternoon. Get to the hotel by evening\nDay 3 Start hike, stay at refugio at night\nDay 4 Start hike, stay at refugio at night\nDay 5 Start hike, stay at refugio at night\nDay 6 Start hike, stay at refugio at night\nDay 7 Start hike. After completion, return to Puerto Natales.\nWe can decide what else to do after day 8 as needed <This message was edited>"
+    }
+  ],
+  "resource_links": [
+    {
+      "url": "https://a.co/d/7e6Jn05",
+      "shared_by": "Giridhar Ragnar",
+      "date": "7/16/24",
+      "context": "Tailwind Nutrition Endurance Fuel, Electrolyte & Hydration Sports Drink Mix Powder, Gluten-Free, Vegan, Mandarin, 50 Servings  https://a.co/d/7e6Jn05"
+    },
+    {
+      "url": "https://www.rei.com/promotions/labor-day-sale",
+      "shared_by": "Giridhar Ragnar",
+      "date": "8/26/24",
+      "context": "Labor Day Sale and Clearance https://www.rei.com/promotions/labor-day-sale"
+    },
+    {
+      "url": "https://a.co/d/9LWNAdT",
+      "shared_by": "Giridhar Ragnar",
+      "date": "8/27/24",
+      "context": "Outdoor Products Ultimate Dry Sack 3-Pack  https://a.co/d/9LWNAdT"
+    },
+    {
+      "url": "https://a.co/d/666ZH8u",
+      "shared_by": "Giridhar Ragnar",
+      "date": "8/28/24",
+      "context": "LifeStraw Go Bottle 2-Stage with Integrated 1,000 Liter LifeStraw Filter and Activated Carbon, Green, 22oz  https://a.co/d/666ZH8u"
+    },
+    {
+      "url": "https://a.co/d/6igER2I",
+      "shared_by": "Giridhar Ragnar",
+      "date": "8/30/24",
+      "context": "Merrell Men's Moab 3 Edge Hiking Shoe  https://a.co/d/6igER2I"
+    },
+    {
+      "url": "https://a.co/d/g40R0BP",
+      "shared_by": "Giridhar Ragnar",
+      "date": "8/30/24",
+      "context": "Merrell mens Moab 3  https://a.co/d/g40R0BP"
+    },
+    {
+      "url": "https://www.globalrescue.com/lp/trip-evacuation-travel-insurance/",
+      "shared_by": "Kannan Ramachandran",
+      "date": "9/27/24",
+      "context": "Hi Guys - we need to buy insurance for medevac/ emergency rescue. Uday used this service https://www.globalrescue.com/lp/trip-evacuation-travel-insurance/ And recommends it."
+    },
+    {
+      "url": "https://www.alltrails.com/explore/recording/day-1-abc-trek-jinhu-danda-to-chomrong-0d441de?p=-1&sh=r0bnk3",
+      "shared_by": "Binoj Kitchu",
+      "date": "10/8/24",
+      "context": "Day 1 -ABC trek - Jhinu Danda  to Chomrong on AllTrails https://www.alltrails.com/explore/recording/day-1-abc-trek-jinhu-danda-to-chomrong-0d441de?p=-1&sh=r0bnk3"
+    },
+    {
+      "url": "https://www.alltrails.com/explore/recording/day-2-abc-trek-chomrong-to-dovan-7f2776f?p=-1&sh=r0bnk3",
+      "shared_by": "Binoj Kitchu",
+      "date": "10/9/24",
+      "context": "Day 2 - ABC Trek - Chomrong to Dovan on AllTrails https://www.alltrails.com/explore/recording/day-2-abc-trek-chomrong-to-dovan-7f2776f?p=-1&sh=r0bnk3"
+    },
+    {
+      "url": "https://www.alltrails.com/explore/recording/afternoon-via-ferrata-at-annapurna-base-camp-trek-cd19a3a?p=-1&sh=r0bnk3",
+      "shared_by": "Binoj Kitchu",
+      "date": "10/12/24",
+      "context": "Day 3 - ABC Base camp -Devon to MBC on AllTrails https://www.alltrails.com/explore/recording/afternoon-via-ferrata-at-annapurna-base-camp-trek-cd19a3a?p=-1&sh=r0bnk3"
+    },
+    {
+      "url": "https://www.alltrails.com/explore/recording/afternoon-via-ferrata-at-annapurna-base-camp-trek-1905aed?p=-1&sh=r0bnk3",
+      "shared_by": "Binoj Kitchu",
+      "date": "10/12/24",
+      "context": "Day 4 - ABC Trek - MBC to ABC and back to Devon on AllTrails https://www.alltrails.com/explore/recording/afternoon-via-ferrata-at-annapurna-base-camp-trek-1905aed?p=-1&sh=r0bnk3"
+    },
+    {
+      "url": "https://www.alltrails.com/explore/recording/afternoon-via-ferrata-16475e5-3?p=-1&sh=r0bnk3",
+      "shared_by": "Binoj Kitchu",
+      "date": "10/12/24",
+      "context": "Day 5  - ABC Trek - Dovan back to Chhomrong on AllTrails https://www.alltrails.com/explore/recording/afternoon-via-ferrata-16475e5-3?p=-1&sh=r0bnk3"
+    },
+    {
+      "url": "https://www.alltrails.com/explore/recording/day-6-abc-trek-chhomrong-to-tadapani-df0e09d?sh=r0bnk3",
+      "shared_by": "Binoj Kitchu",
+      "date": "10/14/24",
+      "context": "Day 6 - ABC trek - Chhomrong to Tadapani on AllTrails https://www.alltrails.com/explore/recording/day-6-abc-trek-chhomrong-to-tadapani-df0e09d?sh=r0bnk3"
+    },
+    {
+      "url": "https://www.alltrails.com/explore/recording/day-7-abc-trek-tadapani-to-ghorepani-92426b2?p=86088780&sh=r0bnk3",
+      "shared_by": "Binoj Kitchu",
+      "date": "10/14/24",
+      "context": "Day 7 - ABC trek - Tadapani to Ghorepani on AllTrails https://www.alltrails.com/explore/recording/day-7-abc-trek-tadapani-to-ghorepani-92426b2?p=86088780&sh=r0bnk3"
+    },
+    {
+      "url": "https://www.alltrails.com/explore/recording/day-8-abc-trek-ghorepani-to-poon-hill-and-back-to-thikedana-7230b2b?sh=r0bnk3",
+      "shared_by": "Binoj Kitchu",
+      "date": "10/15/24",
+      "context": "Incredible trip.  Had a wonderful time overall and the Poon Hill Views was the icing on the cake  Day 8 - ABC trek - Ghorepani to Poon Hill and back to Thikedana on AllTrails https://www.alltrails.com"
+    },
+    {
+      "url": "https://chng.it/t5yMFDQNCc",
+      "shared_by": "Giridhar Ragnar",
+      "date": "10/28/24",
+      "context": "Can you help me out by signing this petition? https://chng.it/t5yMFDQNCc"
+    },
+    {
+      "url": "https://venmo.com/code?user_id=2952482263138304038",
+      "shared_by": "Sam Raja",
+      "date": "11/7/24",
+      "context": "Hi,  Here's the link to my Venmo profile. Tap or click it, and be sure you're finding my true self.  https://venmo.com/code?user_id=2952482263138304038"
+    },
+    {
+      "url": "https://www.wikiloc.com/hiking-trails/dolomitas-alta-via-1-103035264",
+      "shared_by": "Kannan Ramachandran",
+      "date": "11/9/24",
+      "context": "I found this on a Reddit forum. Basically, the quality of the Rifugios / mountain huts is highly variable . Please read on below: ****** This is my GPS track. I did it in 2016, though, so you may want"
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0CPL2FB14?ref=ppx_pop_mob_ap_share",
+      "shared_by": "Bala Ravindran",
+      "date": "12/12/24",
+      "context": "Osprey Talon 36L Men's Hiking... https://www.amazon.com/dp/B0CPL2FB14?ref=ppx_pop_mob_ap_share"
+    },
+    {
+      "url": "https://www.amazon.com/dp/B09P1HZRXH?ref=ppx_pop_mob_ap_share",
+      "shared_by": "Bala Ravindran",
+      "date": "12/12/24",
+      "context": "Maelstrom Hiking Backpack,Camping... https://www.amazon.com/dp/B09P1HZRXH?ref=ppx_pop_mob_ap_share"
+    },
+    {
+      "url": "http://my.bookatrekking.com/",
+      "shared_by": "Bala Ravindran",
+      "date": "1/13/25",
+      "context": "Kannan should be able to get that from http://my.bookatrekking.com/"
+    },
+    {
+      "url": "https://a.co/d/2ZOdcV6",
+      "shared_by": "Bala Ravindran",
+      "date": "2/18/25",
+      "context": "Limited-time deal: Maelstrom Hiking Backpack,Camping Backpack,40L Waterproof Hiking Daypack with Rain Cover,Lightweight Travel Backpack,Blue  https://a.co/d/2ZOdcV6"
+    },
+    {
+      "url": "https://a.co/d/9W3G72L",
+      "shared_by": "Bala Ravindran",
+      "date": "2/18/25",
+      "context": "Osprey Talon 36L Men's Hiking Backpack with Hipbelt, Green Belt/Black S/M  https://a.co/d/9W3G72L"
+    },
+    {
+      "url": "https://expe.app.link/a9UOFDPkwRb",
+      "shared_by": "Anish Naina",
+      "date": "3/6/25",
+      "context": "Check out these lodging options in Cortina d'Ampezzo, Veneto, Italy I found on Expedia: https://expe.app.link/a9UOFDPkwRb"
+    },
+    {
+      "url": "https://e.xpda.co/i89QpN1DTem0KnoySmEzCsAvUwE",
+      "shared_by": "Kannan Ramachandran",
+      "date": "3/6/25",
+      "context": "Download the Expedia app to look at this hotel in Agordo. https://e.xpda.co/i89QpN1DTem0KnoySmEzCsAvUwE <This message was edited>"
+    },
+    {
+      "url": "https://www.airbnb.com/l/vdzDoKYO",
+      "shared_by": "Anish Naina",
+      "date": "3/14/25",
+      "context": "I was asked to book the airbnb in Colorado near Boulder, the following property has 10 beds . https://www.airbnb.com/l/vdzDoKYO"
+    },
+    {
+      "url": "https://search.app/RvM14Hxo2cpGhxreA",
+      "shared_by": "Srikumar Nambiar",
+      "date": "3/19/25",
+      "context": "A 59-year-old Kerala woman trekked solo to Everest Base Camp without formal training. Source: Hindustan Times Shared via the Google app https://search.app/RvM14Hxo2cpGhxreA"
+    },
+    {
+      "url": "https://maps.apple.com/?address=18333%20N%20Thompson%20Peak%20Pkwy,%20Scottsdale,%20AZ%20%2085255,%20United%20States&auid=7435942587327642281&ll=33.649362,-111.858460&lsp=9902&q=Gateway%20Trailhead&t=m",
+      "shared_by": "Kannan Ramachandran",
+      "date": "4/18/25",
+      "context": "Gateway Trailhead https://maps.apple.com/?address=18333%20N%20Thompson%20Peak%20Pkwy,%20Scottsdale,%20AZ%20%2085255,%20United%20States&auid=7435942587327642281&ll=33.649362,-111.858460&lsp=9902&q=Gate"
+    },
+    {
+      "url": "https://strava.app.link/vwRl8xWmHSb",
+      "shared_by": "Bala Ravindran",
+      "date": "4/19/25",
+      "context": "@inspiration point via Gateway trail head  Check out my hike on Strava. https://strava.app.link/vwRl8xWmHSb"
+    },
+    {
+      "url": "https://share.google/kRMvVktKm9MC7vEfs",
+      "shared_by": "Srikumar Nambiar",
+      "date": "5/15/25",
+      "context": "https://share.google/kRMvVktKm9MC7vEfs  Shared via the Google app"
+    },
+    {
+      "url": "https://maps.app.goo.gl/Dy4hNnS3c6z9Z2Dr9",
+      "shared_by": "Anish Naina",
+      "date": "5/17/25",
+      "context": "See my real-time location on Maps: https://maps.app.goo.gl/Dy4hNnS3c6z9Z2Dr9"
+    },
+    {
+      "url": "https://share.google/lysyOfFjBmYmpN9Yr",
+      "shared_by": "Srikumar Nambiar",
+      "date": "6/1/25",
+      "context": "Not to scare people but saw this and wanted to share .  Aziz Ziriat went missing while hiking in January Source: The Independent https://share.google/lysyOfFjBmYmpN9Yr"
+    },
+    {
+      "url": "https://yelp.to/GuvDDiXFzb",
+      "shared_by": "Anish Naina",
+      "date": "6/5/25",
+      "context": "Check out Spice Room https://yelp.to/GuvDDiXFzb"
+    },
+    {
+      "url": "https://maps.google.com/?q=39.7400286,-104.9502951",
+      "shared_by": "Kidambi Anu Sanjana",
+      "date": "6/5/25",
+      "context": "location: https://maps.google.com/?q=39.7400286,-104.9502951"
+    },
+    {
+      "url": "https://maps.google.com/?q=39.7399722,-104.950266",
+      "shared_by": "Kidambi Anu Sanjana",
+      "date": "6/5/25",
+      "context": "location: https://maps.google.com/?q=39.7399722,-104.950266"
+    },
+    {
+      "url": "https://maps.app.goo.gl/wM1uqCCfvUVszTdYA?g_st=aw",
+      "shared_by": "Bala Ravindran",
+      "date": "6/16/25",
+      "context": "Shared route From Hotel Villa Imperina to Departures via A27.  1 hr 35 min (128 km) 1 hr 35 min in current traffic   1. Head south toward Strada Regionale 203 2. Turn left onto Strada Regionale 203 3."
+    },
+    {
+      "url": "https://www.komoot.com/invite-tour/2356701712?code=rufo8x-BOQ24NGFZ5SSohdCVMqWDYT09Q3KvtLtfi1ZDqiD00o&share_token=afNzF5UyIIrepFz7VlQJ9kW0dLcMr1JN73gR5Ypo2ZxM8lI6uM&ref=itp",
+      "shared_by": "Kannan Ramachandran",
+      "date": "6/25/25",
+      "context": "https://www.komoot.com/invite-tour/2356701712?code=rufo8x-BOQ24NGFZ5SSohdCVMqWDYT09Q3KvtLtfi1ZDqiD00o&share_token=afNzF5UyIIrepFz7VlQJ9kW0dLcMr1JN73gR5Ypo2ZxM8lI6uM&ref=itp  Day 1"
+    },
+    {
+      "url": "https://www.komoot.com/invite-tour/2356702973?code=udwlej-XDnedH_L9RnxvvJWOuow9Le7SGtrlFkL9Y8kELKm5lg",
+      "shared_by": "Kannan Ramachandran",
+      "date": "6/25/25",
+      "context": "https://www.komoot.com/invite-tour/2356702973?code=udwlej-XDnedH_L9RnxvvJWOuow9Le7SGtrlFkL9Y8kELKm5lg  DAY 2"
+    },
+    {
+      "url": "https://www.komoot.com/invite-tour/2356704760?code=y79235-JavnNpCswaGyK5oFu-n7DRuyKUg2aZPwkpcQm_NkDqE",
+      "shared_by": "Kannan Ramachandran",
+      "date": "6/25/25",
+      "context": "https://www.komoot.com/invite-tour/2356704760?code=y79235-JavnNpCswaGyK5oFu-n7DRuyKUg2aZPwkpcQm_NkDqE  DAY 3"
+    },
+    {
+      "url": "https://www.komoot.com/invite-tour/2356705258?code=cyqbno-h0udvkoYvV6-BfEs3B0aW8nZGR8oSHAyWry-dKLjnK8",
+      "shared_by": "Kannan Ramachandran",
+      "date": "6/25/25",
+      "context": "https://www.komoot.com/invite-tour/2356705258?code=cyqbno-h0udvkoYvV6-BfEs3B0aW8nZGR8oSHAyWry-dKLjnK8  DAY 4"
+    },
+    {
+      "url": "https://www.komoot.com/invite-tour/2356705587?code=7bhwj6-mM6BE6i6FCY9TKgA174WiodN5VqHgVBzHxZ9O0c4yZc",
+      "shared_by": "Kannan Ramachandran",
+      "date": "6/25/25",
+      "context": "https://www.komoot.com/invite-tour/2356705587?code=7bhwj6-mM6BE6i6FCY9TKgA174WiodN5VqHgVBzHxZ9O0c4yZc  DAY 5"
+    },
+    {
+      "url": "https://www.komoot.com/invite-tour/2356706565?code=7vffyc-KfzeTpgdCB9EvEk7433GYtk0mPfLaQfO-SOtmD7STr0",
+      "shared_by": "Kannan Ramachandran",
+      "date": "6/25/25",
+      "context": "https://www.komoot.com/invite-tour/2356706565?code=7vffyc-KfzeTpgdCB9EvEk7433GYtk0mPfLaQfO-SOtmD7STr0  DAY 6"
+    },
+    {
+      "url": "https://www.komoot.com/invite-tour/2356708071?code=bca4dw-n-NpbT0W8zZDWe9G-s_0VQ4vc9ebp7-nTzHzg1mnF0Q",
+      "shared_by": "Kannan Ramachandran",
+      "date": "6/25/25",
+      "context": "https://www.komoot.com/invite-tour/2356708071?code=bca4dw-n-NpbT0W8zZDWe9G-s_0VQ4vc9ebp7-nTzHzg1mnF0Q  DAY 7"
+    },
+    {
+      "url": "https://www.komoot.com/invite-tour/2356708675?code=w72vam-NiNa15BjZyQblBbVLO1-pq_kNyZ2jQH2_ypo-Dy83YI&share_token=aLbWHnu5G9RG60g4DfmU4mmOmRJ56gpoflMIv7Ykv8xiEdQQ7a&ref=itp",
+      "shared_by": "Kannan Ramachandran",
+      "date": "6/25/25",
+      "context": "https://www.komoot.com/invite-tour/2356708675?code=w72vam-NiNa15BjZyQblBbVLO1-pq_kNyZ2jQH2_ypo-Dy83YI&share_token=aLbWHnu5G9RG60g4DfmU4mmOmRJ56gpoflMIv7Ykv8xiEdQQ7a&ref=itp  DAY 8"
+    },
+    {
+      "url": "https://a.co/d/8xtwpo8",
+      "shared_by": "Bala Ravindran",
+      "date": "7/11/25",
+      "context": "10L backpack for hiking, travel, and everyday use; made of water-resistant nylon with multiple compartments. Others are loving it!  https://a.co/d/8xtwpo8"
+    },
+    {
+      "url": "https://a.co/d/4Pbu3dt",
+      "shared_by": "Anish Naina",
+      "date": "7/11/25",
+      "context": "Gonex Daypack  https://a.co/d/4Pbu3dt"
+    },
+    {
+      "url": "https://share.google/fLBdKku6DmtGnG6uN",
+      "shared_by": "Kidambi Anu Sanjana",
+      "date": "7/23/25",
+      "context": "LHS183248-250723.pdf https://share.google/fLBdKku6DmtGnG6uN"
+    },
+    {
+      "url": "https://share.google/2K1ZMhxg2BTylqoqV",
+      "shared_by": "Kidambi Anu Sanjana",
+      "date": "8/5/25",
+      "context": "A British hiker needed rescuing from the Italian Dolomites. He’s now facing a $16,000 fine | CNN https://share.google/2K1ZMhxg2BTylqoqV"
+    },
+    {
+      "url": "https://meet.google.com/jjj-qova-mce",
+      "shared_by": "Bala Ravindran",
+      "date": "8/14/25",
+      "context": "Here is the link to tomorrows call with Luis https://meet.google.com/jjj-qova-mce It is at 3:30 p.m Arizona time <This message was edited>"
+    },
+    {
+      "url": "https://share.google/9xNxMg1cqXVrr0Whn",
+      "shared_by": "Srikumar Nambiar",
+      "date": "9/30/25",
+      "context": "Source: AP News https://share.google/9xNxMg1cqXVrr0Whn"
+    },
+    {
+      "url": "https://maps.apple.com/place?address=21001%20N%20Tatum%20Blvd,%20Phoenix,%20AZ%20%2085050,%20United%20States&coordinate=33.676997,-111.974750&name=Barrio%20Queen&place-id=I28DCBD913CAF5C1A",
+      "shared_by": "Kannan Ramachandran",
+      "date": "10/6/25",
+      "context": "Barrio Queen https://maps.apple.com/place?address=21001%20N%20Tatum%20Blvd,%20Phoenix,%20AZ%20%2085050,%20United%20States&coordinate=33.676997,-111.974750&name=Barrio%20Queen&place-id=I28DCBD913CAF5C1"
+    },
+    {
+      "url": "https://n.opn.tl/yBSIOVUA.",
+      "shared_by": "Kannan Ramachandran",
+      "date": "10/8/25",
+      "context": "Booked: Barrio Queen - Desert Ridge Marketplace for 12 on 10/11/25 Sat 6:30 PM. See more: https://n.opn.tl/yBSIOVUA. Reply STOP to end msg. Msg&data rates may apply."
+    },
+    {
+      "url": "https://thebanffblog.com/lake-louise-hikes/",
+      "shared_by": "Kannan Ramachandran",
+      "date": "3/12/26",
+      "context": "Hi Kannan- this is the best blog - https://thebanffblog.com/lake-louise-hikes/"
+    },
+    {
+      "url": "https://thebanffblog.com/lake-agnes-teahouse-hike/",
+      "shared_by": "Kannan Ramachandran",
+      "date": "3/12/26",
+      "context": "this is the one we did - https://thebanffblog.com/lake-agnes-teahouse-hike/"
+    },
+    {
+      "url": "https://www.alltrails.com/trail/us/washington/the-enchantments-trail",
+      "shared_by": "Gopa Ganesan",
+      "date": "6/4/26",
+      "context": "The Enchantments Traverse on AllTrails https://www.alltrails.com/trail/us/washington/the-enchantments-trail"
+    },
+    {
+      "url": "https://mountengadine.com/?utm_source=google&utm_medium=organic&utm_campaign=google-business-profile",
+      "shared_by": "Anish Naina",
+      "date": "6/7/26",
+      "context": "Got it- https://mountengadine.com/?utm_source=google&utm_medium=organic&utm_campaign=google-business-profile"
+    },
+    {
+      "url": "https://adventurebase.com/adventure/grand-tour-des-combins-self-guided-trek-7-days/",
+      "shared_by": "Bala Ravindran",
+      "date": "6/7/26",
+      "context": "Switching gears to the hike in Sep... Huge update on the September trip...below are details from gemini and me I was targeting the Tour des Combins (TDC), which loops through Switzerland and Italy! I "
+    },
+    {
+      "url": "https://www.novo-monde.com/tour-des-combins/",
+      "shared_by": "Bala Ravindran",
+      "date": "6/7/26",
+      "context": "Switching gears to the hike in Sep... Huge update on the September trip...below are details from gemini and me I was targeting the Tour des Combins (TDC), which loops through Switzerland and Italy! I "
+    },
+    {
+      "url": "https://www.trailwisetravel.com/trailwise-blog/tour-des-combins-blog",
+      "shared_by": "Bala Ravindran",
+      "date": "6/7/26",
+      "context": "Switching gears to the hike in Sep... Huge update on the September trip...below are details from gemini and me I was targeting the Tour des Combins (TDC), which loops through Switzerland and Italy! I "
+    }
+  ]
+}
