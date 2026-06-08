@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — TrailQuest</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">⛰️ TrailQuest</a>
+      <button class="nav-toggle">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="trails.html">Trails</a></li>
+        <li><a href="tips.html">Tips & Gear</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1400&q=80')">
+    <div class="overlay"></div>
+    <div class="page-hero-content">
+      <h1>Get in Touch</h1>
+      <p>Questions, trail submissions, or just want to say hi?</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="contact-wrap">
+
+      <div class="contact-form-box">
+        <h2 style="font-family:'Montserrat',sans-serif;margin-bottom:1.5rem;">Send Us a Message</h2>
+        <form onsubmit="handleContact(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Jane Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject">
+              <option>General Inquiry</option>
+              <option>Trail Submission</option>
+              <option>Report a Trail Issue</option>
+              <option>Partnership</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell us what's on your mind..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <p id="contact-msg" style="margin-top:1rem;font-weight:600;min-height:1.4rem;"></p>
+      </div>
+
+      <div class="contact-info-box">
+        <h2 style="font-family:'Montserrat',sans-serif;margin-bottom:1.5rem;">Contact Info</h2>
+        <div class="info-item">
+          <div class="info-icon">📧</div>
+          <div><strong>Email</strong><br/>hello@trailquest.com</div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div><strong>Phone</strong><br/>(555) 867-5309</div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div><strong>Base Camp</strong><br/>Boulder, Colorado<br/>United States</div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🕐</div>
+          <div><strong>Hours</strong><br/>Mon–Fri: 9am – 6pm MT<br/>Weekends: Email only</div>
+        </div>
+
+        <div style="margin-top:2rem;">
+          <h3 style="font-family:'Montserrat',sans-serif;margin-bottom:1rem;">Follow the Trail</h3>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="#" class="btn btn-sm">Instagram</a>
+            <a href="#" class="btn btn-sm">Facebook</a>
+            <a href="#" class="btn btn-sm">YouTube</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><span class="logo">⛰️ TrailQuest</span><p>Adventure starts here.</p></div>
+      <div class="footer-links"><h4>Explore</h4><a href="trails.html">All Trails</a><a href="tips.html">Gear Guide</a><a href="gallery.html">Gallery</a></div>
+      <div class="footer-links"><h4>Company</h4><a href="contact.html">Contact Us</a><a href="#">Privacy Policy</a></div>
+    </div>
+    <p class="footer-copy">© 2026 TrailQuest. Built for the mountains.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

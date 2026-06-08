@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trails — TrailQuest</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">⛰️ TrailQuest</a>
+      <button class="nav-toggle">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="trails.html" class="active">Trails</a></li>
+        <li><a href="tips.html">Tips & Gear</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1400&q=80')">
+    <div class="overlay"></div>
+    <div class="page-hero-content">
+      <h1>All Trails</h1>
+      <p>Filter by difficulty and find your perfect adventure</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="easy">Easy</button>
+      <button class="filter-btn" data-filter="moderate">Moderate</button>
+      <button class="filter-btn" data-filter="hard">Hard</button>
+    </div>
+
+    <div class="card-grid">
+
+      <div class="card" data-difficulty="easy">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&q=80')"></div>
+        <div class="card-body">
+          <span class="badge badge-easy">Easy</span>
+          <h3>Cedar Ridge Loop</h3>
+          <p>A peaceful 4-mile loop through old-growth cedar forest with stunning valley views.</p>
+          <div class="trail-meta"><span>📍 Oregon</span><span>⏱ 2 hrs</span><span>📐 4 mi</span><span>↑ 450 ft</span></div>
+          <a href="#" class="btn btn-sm">View Details</a>
+        </div>
+      </div>
+
+      <div class="card" data-difficulty="easy">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80')"></div>
+        <div class="card-body">
+          <span class="badge badge-easy">Easy</span>
+          <h3>Lakeside Meadow Walk</h3>
+          <p>Gentle lakeside path perfect for families and beginner hikers. Wildflowers in spring.</p>
+          <div class="trail-meta"><span>📍 Montana</span><span>⏱ 1.5 hrs</span><span>📐 3 mi</span><span>↑ 150 ft</span></div>
+          <a href="#" class="btn btn-sm">View Details</a>
+        </div>
+      </div>
+
+      <div class="card" data-difficulty="moderate">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80')"></div>
+        <div class="card-body">
+          <span class="badge badge-moderate">Moderate</span>
+          <h3>Eagle's Spine Trail</h3>
+          <p>A challenging ridge hike offering panoramic mountain views and wildlife sightings.</p>
+          <div class="trail-meta"><span>📍 Colorado</span><span>⏱ 5 hrs</span><span>📐 9 mi</span><span>↑ 2,100 ft</span></div>
+          <a href="#" class="btn btn-sm">View Details</a>
+        </div>
+      </div>
+
+      <div class="card" data-difficulty="moderate">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=600&q=80')"></div>
+        <div class="card-body">
+          <span class="badge badge-moderate">Moderate</span>
+          <h3>Granite Falls Loop</h3>
+          <p>Trek past three scenic waterfalls through mixed pine and oak forest.</p>
+          <div class="trail-meta"><span>📍 California</span><span>⏱ 4 hrs</span><span>📐 7 mi</span><span>↑ 1,600 ft</span></div>
+          <a href="#" class="btn btn-sm">View Details</a>
+        </div>
+      </div>
+
+      <div class="card" data-difficulty="hard">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&q=80')"></div>
+        <div class="card-body">
+          <span class="badge badge-hard">Hard</span>
+          <h3>Summit Peak Ascent</h3>
+          <p>A demanding summit push to 14,000 ft — reward yourself with cloud-level views.</p>
+          <div class="trail-meta"><span>📍 Wyoming</span><span>⏱ 8 hrs</span><span>📐 14 mi</span><span>↑ 4,200 ft</span></div>
+          <a href="#" class="btn btn-sm">View Details</a>
+        </div>
+      </div>
+
+      <div class="card" data-difficulty="hard">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&q=80')"></div>
+        <div class="card-body">
+          <span class="badge badge-hard">Hard</span>
+          <h3>Ridgeline Traverse</h3>
+          <p>Two-day backcountry traverse across exposed alpine ridgelines. Expert only.</p>
+          <div class="trail-meta"><span>📍 Washington</span><span>⏱ 2 days</span><span>📐 22 mi</span><span>↑ 6,800 ft</span></div>
+          <a href="#" class="btn btn-sm">View Details</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><span class="logo">⛰️ TrailQuest</span><p>Adventure starts here.</p></div>
+      <div class="footer-links"><h4>Explore</h4><a href="trails.html">All Trails</a><a href="tips.html">Gear Guide</a><a href="gallery.html">Gallery</a></div>
+      <div class="footer-links"><h4>Company</h4><a href="contact.html">Contact Us</a><a href="#">Privacy Policy</a></div>
+    </div>
+    <p class="footer-copy">© 2026 TrailQuest. Built for the mountains.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

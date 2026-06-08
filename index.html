@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrailQuest — Discover Your Next Hike</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">⛰️ TrailQuest</a>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="trails.html">Trails</a></li>
+        <li><a href="tips.html">Tips & Gear</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Find Your Trail.<br/>Own the Summit.</h1>
+      <p>Curated hiking routes for every skill level — from gentle forest walks to rugged alpine climbs.</p>
+      <a href="trails.html" class="btn btn-primary">Explore Trails</a>
+      <a href="tips.html" class="btn btn-outline">Gear Guide</a>
+    </div>
+  </header>
+
+  <!-- STATS BAND -->
+  <section class="stats-band">
+    <div class="stat"><span class="stat-num">240+</span><span class="stat-label">Trails Listed</span></div>
+    <div class="stat"><span class="stat-num">18</span><span class="stat-label">National Parks</span></div>
+    <div class="stat"><span class="stat-num">12k</span><span class="stat-label">Community Members</span></div>
+    <div class="stat"><span class="stat-num">4.9★</span><span class="stat-label">Avg Trail Rating</span></div>
+  </section>
+
+  <!-- FEATURED TRAILS -->
+  <section class="section featured">
+    <h2 class="section-title">Featured Trails</h2>
+    <p class="section-sub">Hand-picked adventures for every hiker</p>
+    <div class="card-grid">
+
+      <div class="card">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80')"></div>
+        <div class="card-body">
+          <span class="badge badge-easy">Easy</span>
+          <h3>Cedar Ridge Loop</h3>
+          <p>A peaceful 4-mile loop through old-growth cedar forest with stunning valley views.</p>
+          <div class="trail-meta">
+            <span>📍 Oregon</span>
+            <span>⏱ 2 hrs</span>
+            <span>📐 4 mi</span>
+          </div>
+          <a href="trails.html" class="btn btn-sm">View Trail</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80')"></div>
+        <div class="card-body">
+          <span class="badge badge-moderate">Moderate</span>
+          <h3>Eagle's Spine Trail</h3>
+          <p>A challenging ridge hike offering panoramic mountain views and wildlife sightings.</p>
+          <div class="trail-meta">
+            <span>📍 Colorado</span>
+            <span>⏱ 5 hrs</span>
+            <span>📐 9 mi</span>
+          </div>
+          <a href="trails.html" class="btn btn-sm">View Trail</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&q=80')"></div>
+        <div class="card-body">
+          <span class="badge badge-hard">Hard</span>
+          <h3>Summit Peak Ascent</h3>
+          <p>A demanding summit push to 14,000 ft — reward yourself with cloud-level views.</p>
+          <div class="trail-meta">
+            <span>📍 Wyoming</span>
+            <span>⏱ 8 hrs</span>
+            <span>📐 14 mi</span>
+          </div>
+          <a href="trails.html" class="btn btn-sm">View Trail</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section why-us">
+    <div class="why-text">
+      <h2>Why Hike with TrailQuest?</h2>
+      <ul class="why-list">
+        <li>✅ Verified trail conditions updated weekly</li>
+        <li>✅ Difficulty ratings from real hikers</li>
+        <li>✅ Downloadable offline maps</li>
+        <li>✅ Safety alerts & weather integration</li>
+        <li>✅ Community reviews & photos</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Join the Community</a>
+    </div>
+    <div class="why-img">
+      <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80" alt="Hiker on mountain trail" />
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <h2>Stay on the Trail</h2>
+    <p>Get weekly trail picks, gear reviews, and hiking tips straight to your inbox.</p>
+    <form class="newsletter-form" onsubmit="handleSubscribe(event)">
+      <input type="email" placeholder="your@email.com" required />
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+    <p id="sub-msg" class="sub-msg"></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo">⛰️ TrailQuest</span>
+        <p>Adventure starts here.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <a href="trails.html">All Trails</a>
+        <a href="tips.html">Gear Guide</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <a href="contact.html">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 TrailQuest. Built for the mountains.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
