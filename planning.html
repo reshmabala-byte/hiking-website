@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hike Planning — TrailQuest</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="planning.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">⛰️ TrailQuest</a>
+      <button class="nav-toggle">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="trails.html">Trails</a></li>
+        <li><a href="tips.html">Tips & Gear</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="planning.html" class="active">Planning</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1476611338391-6f395a0dd82e?w=1400&q=80')">
+    <div class="overlay"></div>
+    <div class="page-hero-content">
+      <h1>Our Hike Journal</h1>
+      <p>Track past adventures and plan the next ones</p>
+    </div>
+  </div>
+
+  <!-- TAB BAR -->
+  <div class="plan-tabs">
+    <button class="plan-tab active" data-tab="past">Past Hikes</button>
+    <button class="plan-tab" data-tab="upcoming">Upcoming Hikes</button>
+    <button class="plan-tab" data-tab="stats">Stats</button>
+  </div>
+
+  <!-- PAST HIKES TAB -->
+  <section class="plan-section" id="tab-past">
+    <div class="plan-header">
+      <h2>Past Hikes</h2>
+      <button class="btn btn-primary" onclick="openModal('past')">+ Add Past Hike</button>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="search-past" placeholder="Search by trail, location, or hiker name…" oninput="renderPast()" />
+    </div>
+    <div id="past-list" class="hike-list"></div>
+    <p id="past-empty" class="empty-msg" style="display:none">No past hikes yet. Click "Add Past Hike" to log your first adventure!</p>
+  </section>
+
+  <!-- UPCOMING HIKES TAB -->
+  <section class="plan-section hidden" id="tab-upcoming">
+    <div class="plan-header">
+      <h2>Upcoming Hikes</h2>
+      <button class="btn btn-primary" onclick="openModal('upcoming')">+ Add Upcoming Hike</button>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="search-upcoming" placeholder="Search planned hikes…" oninput="renderUpcoming()" />
+    </div>
+    <div id="upcoming-list" class="hike-list"></div>
+    <p id="upcoming-empty" class="empty-msg" style="display:none">No upcoming hikes planned yet. Start planning your next adventure!</p>
+  </section>
+
+  <!-- STATS TAB -->
+  <section class="plan-section hidden" id="tab-stats">
+    <h2 style="font-family:'Montserrat',sans-serif;margin-bottom:2rem;">Your Hiking Stats</h2>
+    <div class="stats-grid" id="stats-grid"></div>
+    <div style="margin-top:3rem;">
+      <h3 style="font-family:'Montserrat',sans-serif;margin-bottom:1rem;">Top Hikers</h3>
+      <div id="top-hikers" class="top-hikers"></div>
+    </div>
+  </section>
+
+  <!-- ADD / EDIT MODAL -->
+  <div class="modal-backdrop hidden" id="modal-backdrop" onclick="closeModal(event)">
+    <div class="modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <h2 id="modal-title" style="font-family:'Montserrat',sans-serif;margin-bottom:1.5rem;">Add Hike</h2>
+      <form id="hike-form" onsubmit="saveHike(event)">
+        <input type="hidden" id="hike-id" />
+        <input type="hidden" id="hike-type" />
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Trail / Hike Name *</label>
+            <input type="text" id="f-name" placeholder="e.g. Cedar Ridge Loop" required />
+          </div>
+          <div class="form-group">
+            <label>Location</label>
+            <input type="text" id="f-location" placeholder="e.g. Yosemite, CA" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label id="date-label">Date Hiked *</label>
+            <input type="date" id="f-date" required />
+          </div>
+          <div class="form-group">
+            <label>Difficulty</label>
+            <select id="f-difficulty">
+              <option value="">-- Select --</option>
+              <option value="easy">Easy</option>
+              <option value="moderate">Moderate</option>
+              <option value="hard">Hard</option>
+              <option value="strenuous">Strenuous</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Distance (miles)</label>
+            <input type="number" id="f-distance" step="0.1" min="0" placeholder="e.g. 7.5" />
+          </div>
+          <div class="form-group">
+            <label>Elevation Gain (ft)</label>
+            <input type="number" id="f-elevation" min="0" placeholder="e.g. 1200" />
+          </div>
+        </div>
+
+        <div class="form-group" id="rating-group">
+          <label>Rating</label>
+          <div class="star-rating" id="star-rating">
+            <span class="star" data-val="1">★</span>
+            <span class="star" data-val="2">★</span>
+            <span class="star" data-val="3">★</span>
+            <span class="star" data-val="4">★</span>
+            <span class="star" data-val="5">★</span>
+          </div>
+          <input type="hidden" id="f-rating" value="0" />
+        </div>
+
+        <div class="form-group">
+          <label>Who Was On This Hike?</label>
+          <div class="hiker-input-row">
+            <input type="text" id="hiker-input" placeholder="Type a name and press Enter or Add" />
+            <button type="button" class="btn btn-sm" onclick="addHiker()">Add</button>
+          </div>
+          <div id="hiker-tags" class="hiker-tags"></div>
+        </div>
+
+        <div class="form-group">
+          <label>Notes / Highlights</label>
+          <textarea id="f-notes" rows="3" placeholder="Memorable moments, trail conditions, tips for next time…"></textarea>
+        </div>
+
+        <div class="form-group" id="photo-url-group">
+          <label>Photo URL (optional)</label>
+          <input type="url" id="f-photo" placeholder="https://…" />
+        </div>
+
+        <div style="display:flex;gap:1rem;justify-content:flex-end;margin-top:1.5rem;">
+          <button type="button" class="btn btn-outline" style="border-color:#ccc;color:#555;" onclick="closeModal()">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Hike</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- DELETE CONFIRM MODAL -->
+  <div class="modal-backdrop hidden" id="delete-backdrop" onclick="cancelDelete()">
+    <div class="modal modal-sm" onclick="event.stopPropagation()">
+      <h3 style="font-family:'Montserrat',sans-serif;margin-bottom:1rem;">Delete this hike?</h3>
+      <p style="color:#555;margin-bottom:1.5rem;">This action cannot be undone.</p>
+      <div style="display:flex;gap:1rem;justify-content:flex-end;">
+        <button class="btn btn-outline" style="border-color:#ccc;color:#555;" onclick="cancelDelete()">Cancel</button>
+        <button class="btn" style="background:#e53e3e;color:#fff;" onclick="confirmDelete()">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><span class="logo">⛰️ TrailQuest</span><p>Adventure starts here.</p></div>
+      <div class="footer-links"><h4>Explore</h4><a href="trails.html">All Trails</a><a href="tips.html">Gear Guide</a><a href="gallery.html">Gallery</a></div>
+      <div class="footer-links"><h4>Company</h4><a href="contact.html">Contact Us</a><a href="#">Privacy Policy</a></div>
+    </div>
+    <p class="footer-copy">© 2026 TrailQuest. Built for the mountains.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="planning.js"></script>
+</body>
+</html>
