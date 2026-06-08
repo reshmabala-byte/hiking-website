@@ -12,12 +12,12 @@
 
   <nav class="navbar">
     <div class="nav-inner">
-      <a href="index.html" class="logo">⛰️ TrailQuest</a>
+      <a href="index.html" class="logo">&#9968;&#65039; TrailQuest</a>
       <button class="nav-toggle">&#9776;</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="trails.html">Trails</a></li>
-        <li><a href="tips.html">Tips & Gear</a></li>
+        <li><a href="tips.html">Tips &amp; Gear</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="planning.html" class="active">Planning</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -29,55 +29,104 @@
     <div class="overlay"></div>
     <div class="page-hero-content">
       <h1>Our Hike Journal</h1>
-      <p>Track past adventures and plan the next ones</p>
+      <p>Track past adventures, plan the next ones, and stay geared up</p>
     </div>
+  </div>
+
+  <!-- LOADING BANNER -->
+  <div id="load-banner" class="load-banner">
+    <span class="load-spinner"></span> Loading hike data&hellip;
   </div>
 
   <!-- TAB BAR -->
   <div class="plan-tabs">
     <button class="plan-tab active" data-tab="past">Past Hikes</button>
-    <button class="plan-tab" data-tab="upcoming">Upcoming Hikes</button>
+    <button class="plan-tab" data-tab="upcoming">Upcoming</button>
+    <button class="plan-tab" data-tab="gear">Gear &amp; Buy</button>
+    <button class="plan-tab" data-tab="tips">Group Tips</button>
     <button class="plan-tab" data-tab="stats">Stats</button>
   </div>
 
-  <!-- PAST HIKES TAB -->
+  <!-- ── PAST HIKES ── -->
   <section class="plan-section" id="tab-past">
     <div class="plan-header">
       <h2>Past Hikes</h2>
-      <button class="btn btn-primary" onclick="openModal('past')">+ Add Past Hike</button>
+      <button class="btn btn-primary" onclick="openModal('past')">+ Add Hike</button>
     </div>
     <div class="search-bar">
-      <input type="text" id="search-past" placeholder="Search by trail, location, or hiker name…" oninput="renderPast()" />
+      <input type="text" id="search-past" placeholder="Search by trail, location, or hiker name&hellip;" oninput="renderPast()" />
     </div>
     <div id="past-list" class="hike-list"></div>
-    <p id="past-empty" class="empty-msg" style="display:none">No past hikes yet. Click "Add Past Hike" to log your first adventure!</p>
+    <p id="past-empty" class="empty-msg" style="display:none">No past hikes yet. Click &ldquo;Add Hike&rdquo; to log your first adventure!</p>
   </section>
 
-  <!-- UPCOMING HIKES TAB -->
+  <!-- ── UPCOMING HIKES ── -->
   <section class="plan-section hidden" id="tab-upcoming">
     <div class="plan-header">
       <h2>Upcoming Hikes</h2>
-      <button class="btn btn-primary" onclick="openModal('upcoming')">+ Add Upcoming Hike</button>
+      <button class="btn btn-primary" onclick="openModal('upcoming')">+ Add Hike</button>
     </div>
     <div class="search-bar">
-      <input type="text" id="search-upcoming" placeholder="Search planned hikes…" oninput="renderUpcoming()" />
+      <input type="text" id="search-upcoming" placeholder="Search planned hikes&hellip;" oninput="renderUpcoming()" />
     </div>
     <div id="upcoming-list" class="hike-list"></div>
-    <p id="upcoming-empty" class="empty-msg" style="display:none">No upcoming hikes planned yet. Start planning your next adventure!</p>
+    <p id="upcoming-empty" class="empty-msg" style="display:none">No upcoming hikes planned yet.</p>
   </section>
 
-  <!-- STATS TAB -->
-  <section class="plan-section hidden" id="tab-stats">
-    <h2 style="font-family:'Montserrat',sans-serif;margin-bottom:2rem;">Your Hiking Stats</h2>
-    <div class="stats-grid" id="stats-grid"></div>
-    <div style="margin-top:3rem;">
-      <h3 style="font-family:'Montserrat',sans-serif;margin-bottom:1rem;">Top Hikers</h3>
-      <div id="top-hikers" class="top-hikers"></div>
+  <!-- ── GEAR & BUY ── -->
+  <section class="plan-section hidden" id="tab-gear">
+    <div class="gear-layout">
+
+      <!-- Left: checklist -->
+      <div class="gear-col">
+        <div class="plan-header" style="margin-bottom:1rem;">
+          <h2>Gear Checklist</h2>
+          <button class="btn btn-sm" onclick="clearGearChecks()" style="background:#eee;color:#555;">Reset</button>
+        </div>
+        <p class="section-hint">Check off items as you pack. Progress saves in your browser.</p>
+        <ul id="gear-checklist" class="gear-checklist"></ul>
+
+        <div id="rental-box" class="info-box" style="margin-top:2rem;"></div>
+        <div id="packing-tips-box" style="margin-top:2rem;"></div>
+      </div>
+
+      <!-- Right: products to buy -->
+      <div class="gear-col">
+        <h2 style="font-family:'Montserrat',sans-serif;margin-bottom:.4rem;">Recommended Products</h2>
+        <p class="section-hint">Group-recommended gear with links and prices.</p>
+        <div id="products-filter" class="filters" style="justify-content:flex-start;margin-bottom:1.5rem;"></div>
+        <div id="products-grid" class="products-grid"></div>
+      </div>
+
     </div>
   </section>
 
-  <!-- ADD / EDIT MODAL -->
-  <div class="modal-backdrop hidden" id="modal-backdrop" onclick="closeModal(event)">
+  <!-- ── GROUP TIPS ── -->
+  <section class="plan-section hidden" id="tab-tips">
+    <h2 style="font-family:'Montserrat',sans-serif;margin-bottom:.4rem;">Group Tips &amp; Recommendations</h2>
+    <p class="section-hint">Hard-earned wisdom from the chat &mdash; altitude, training, packing, logistics and more.</p>
+    <div id="tips-accordion" class="tips-accordion"></div>
+  </section>
+
+  <!-- ── STATS ── -->
+  <section class="plan-section hidden" id="tab-stats">
+    <h2 style="font-family:'Montserrat',sans-serif;margin-bottom:2rem;">Group Stats</h2>
+    <div class="stats-grid" id="stats-grid"></div>
+
+    <div class="stats-lower">
+      <div>
+        <h3 style="font-family:'Montserrat',sans-serif;margin-bottom:1rem;">Top Hikers</h3>
+        <div id="top-hikers" class="top-hikers"></div>
+      </div>
+      <div>
+        <h3 style="font-family:'Montserrat',sans-serif;margin-bottom:1rem;">Most Active in Chat</h3>
+        <div id="chat-leaders" class="top-hikers"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ADD / EDIT MODAL ── -->
+  <div class="modal-backdrop hidden" id="modal-backdrop" onclick="closeModal()">
     <div class="modal" onclick="event.stopPropagation()">
       <button class="modal-close" onclick="closeModal()">&times;</button>
       <h2 id="modal-title" style="font-family:'Montserrat',sans-serif;margin-bottom:1.5rem;">Add Hike</h2>
@@ -88,11 +137,11 @@
         <div class="form-row">
           <div class="form-group">
             <label>Trail / Hike Name *</label>
-            <input type="text" id="f-name" placeholder="e.g. Cedar Ridge Loop" required />
+            <input type="text" id="f-name" placeholder="e.g. Angel's Landing" required />
           </div>
           <div class="form-group">
             <label>Location</label>
-            <input type="text" id="f-location" placeholder="e.g. Yosemite, CA" />
+            <input type="text" id="f-location" placeholder="e.g. Zion, UT" />
           </div>
         </div>
 
@@ -127,11 +176,11 @@
         <div class="form-group" id="rating-group">
           <label>Rating</label>
           <div class="star-rating" id="star-rating">
-            <span class="star" data-val="1">★</span>
-            <span class="star" data-val="2">★</span>
-            <span class="star" data-val="3">★</span>
-            <span class="star" data-val="4">★</span>
-            <span class="star" data-val="5">★</span>
+            <span class="star" data-val="1">&#9733;</span>
+            <span class="star" data-val="2">&#9733;</span>
+            <span class="star" data-val="3">&#9733;</span>
+            <span class="star" data-val="4">&#9733;</span>
+            <span class="star" data-val="5">&#9733;</span>
           </div>
           <input type="hidden" id="f-rating" value="0" />
         </div>
@@ -139,7 +188,7 @@
         <div class="form-group">
           <label>Who Was On This Hike?</label>
           <div class="hiker-input-row">
-            <input type="text" id="hiker-input" placeholder="Type a name and press Enter or Add" />
+            <input type="text" id="hiker-input" placeholder="Type a name and press Enter" />
             <button type="button" class="btn btn-sm" onclick="addHiker()">Add</button>
           </div>
           <div id="hiker-tags" class="hiker-tags"></div>
@@ -147,12 +196,12 @@
 
         <div class="form-group">
           <label>Notes / Highlights</label>
-          <textarea id="f-notes" rows="3" placeholder="Memorable moments, trail conditions, tips for next time…"></textarea>
+          <textarea id="f-notes" rows="3" placeholder="Memorable moments, trail conditions, tips&hellip;"></textarea>
         </div>
 
-        <div class="form-group" id="photo-url-group">
+        <div class="form-group">
           <label>Photo URL (optional)</label>
-          <input type="url" id="f-photo" placeholder="https://…" />
+          <input type="url" id="f-photo" placeholder="https://&hellip;" />
         </div>
 
         <div style="display:flex;gap:1rem;justify-content:flex-end;margin-top:1.5rem;">
@@ -163,7 +212,7 @@
     </div>
   </div>
 
-  <!-- DELETE CONFIRM MODAL -->
+  <!-- ── DELETE MODAL ── -->
   <div class="modal-backdrop hidden" id="delete-backdrop" onclick="cancelDelete()">
     <div class="modal modal-sm" onclick="event.stopPropagation()">
       <h3 style="font-family:'Montserrat',sans-serif;margin-bottom:1rem;">Delete this hike?</h3>
@@ -177,11 +226,11 @@
 
   <footer class="footer">
     <div class="footer-inner">
-      <div class="footer-brand"><span class="logo">⛰️ TrailQuest</span><p>Adventure starts here.</p></div>
+      <div class="footer-brand"><span class="logo">&#9968;&#65039; TrailQuest</span><p>Adventure starts here.</p></div>
       <div class="footer-links"><h4>Explore</h4><a href="trails.html">All Trails</a><a href="tips.html">Gear Guide</a><a href="gallery.html">Gallery</a></div>
       <div class="footer-links"><h4>Company</h4><a href="contact.html">Contact Us</a><a href="#">Privacy Policy</a></div>
     </div>
-    <p class="footer-copy">© 2026 TrailQuest. Built for the mountains.</p>
+    <p class="footer-copy">&copy; 2026 TrailQuest. Built for the mountains.</p>
   </footer>
 
   <script src="script.js"></script>
